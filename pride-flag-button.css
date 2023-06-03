@@ -1,0 +1,39 @@
+/*
+ * @name Pride Flag Button for Mastodon
+ * @version 1.0
+ * @description A small piece of code that changes the publish button to show pride in the LGBTQIAPN+ community
+ * @author Dudu <vndmtrx@duck.com>, MagicLike <contact@magiclike.net> (https://magiclike.net)
+ * @homepageURL https://github.com/vndmtrx/mastodon-pride-button
+ * @license GPLv3.0
+ **/
+
+.compose-form__publish-button-wrapper button,
+.ui__header__links .button {
+  background-color: rgba(0, 0, 0, 0);
+  
+  background-image: 
+    radial-gradient(circle at -1% 50%, #0000 5.5%, #6d2380 6% 8%, #0000 8.5%),
+    conic-gradient(at 20% 50%, #0000 225deg, #fdd817 0 315deg, #0000 0), /* Gold */
+    conic-gradient(at 27% 50%, #0000 225deg, #ffffff 0 315deg, #0000 0), /* White */
+    conic-gradient(at 34% 50%, #0000 225deg, #f4aec8 0 315deg, #0000 0), /* Light Pink */
+    conic-gradient(at 41% 50%, #0000 225deg, #7bcce5 0 315deg, #0000 0), /* Light Sky Blue */
+    conic-gradient(at 48% 50%, #0000 225deg, #945516 0 315deg, #0000 0), /* Sandy Brown */
+    conic-gradient(at 55% 50%, #0000 225deg, #000000 0 315deg, #0000 0), /* Black */
+    linear-gradient(
+      #e22016 0 calc((100% / 6)), /* Red */
+      #f28917 0 calc((100% / 6) * 2), /* Orange */
+      #efe524 0 calc((100% / 6) * 3), /* Yellow */
+      #78b82a 0 calc((100% / 6) * 4), /* Green */
+      #2c58a4 0 calc((100% / 6) * 5), /* BLue */
+      #6d2380 0 calc((100% / 6) * 6)); /* Indigo */
+  
+  text-shadow: 
+    #000a 1px 0px 1px,
+    #000a -1px 0px 1px,
+    #000a 0px 1px 1px,
+    #000a 0px -1px 1px,
+    #000a 1px 1px 1px,
+    #000a -1px -1px 1px,
+    #000a 1px -1px 1px,
+    #000a -1px 1px 1px;
+}
