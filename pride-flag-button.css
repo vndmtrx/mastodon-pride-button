@@ -12,7 +12,7 @@
   background-color: rgba(0, 0, 0, 0);
   
   background-image: 
-    radial-gradient(circle at -1% 50%, #0000 5.5%, #6d2380 6% 8%, #0000 8.5%),
+    radial-gradient(circle at -1% 50%, #0000 5.5%, #6d2380 6% 8%, #0000 8.5%), /* Purple */
     conic-gradient(at 20% 50%, #0000 225deg, #fdd817 0 315deg, #0000 0), /* Gold */
     conic-gradient(at 27% 50%, #0000 225deg, #ffffff 0 315deg, #0000 0), /* White */
     conic-gradient(at 34% 50%, #0000 225deg, #f4aec8 0 315deg, #0000 0), /* Light Pink */
@@ -25,7 +25,8 @@
       #efe524 0 calc((100% / 6) * 3), /* Yellow */
       #78b82a 0 calc((100% / 6) * 4), /* Green */
       #2c58a4 0 calc((100% / 6) * 5), /* Blue */
-      #6d2380 0 calc((100% / 6) * 6)); /* Indigo */
+      #6d2380 0 calc((100% / 6) * 6) /* Indigo */
+    );
   
   text-shadow: 
     #000a 1px 0px 1px,
