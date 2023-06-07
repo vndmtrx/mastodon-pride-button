@@ -38,3 +38,13 @@
     #000a 1px -1px 1px,
     #000a -1px 1px 1px;
 }
+
+.compose-form__publish-button-wrapper button:hover,
+.ui__header__links .button:hover {
+  filter: brightness(1.1);
+}
+
+.compose-form__publish-button-wrapper button:disabled,
+.ui__header__links .button:disabled {
+  filter: brightness(0.8);
+}
