@@ -37,6 +37,8 @@
     #000a -1px -1px 1px,
     #000a 1px -1px 1px,
     #000a -1px 1px 1px;
+  
+  transition: filter 100ms;
 }
 
 .compose-form__publish-button-wrapper button:hover,
@@ -46,5 +48,6 @@
 
 .compose-form__publish-button-wrapper button:disabled,
 .ui__header__links .button:disabled {
-  filter: brightness(0.8);
+  filter: grayscale(0.9);
 }
+
