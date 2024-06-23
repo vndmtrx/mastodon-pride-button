@@ -7,8 +7,9 @@
  * @license MIT
  **/
 
-.compose-form__publish-button-wrapper button,
-.ui__header__links .button {
+/* .compose-form__publish-button-wrapper button,
+.ui__header__links .button { */
+.compose-form__publish-button-wrapper button.button.button--block {
   background-color: #0000;
   
   background-image: 
@@ -41,13 +42,15 @@
   transition: filter 100ms;
 }
 
-.compose-form__publish-button-wrapper button:hover,
-.ui__header__links .button:hover {
+/* .compose-form__publish-button-wrapper button:hover,
+.ui__header__links .button:hover { */
+.compose-form__publish-button-wrapper button.button.button--block:hover {
   filter: brightness(1.1);
 }
 
-.compose-form__publish-button-wrapper button:disabled,
-.ui__header__links .button:disabled {
+/* .compose-form__publish-button-wrapper button:disabled,
+.ui__header__links .button:disabled { */
+.compose-form__publish-button-wrapper button.button.button--block:disabled {
   filter: grayscale(0.9);
 }
 
