@@ -1,15 +1,14 @@
 /*
  * @name Pride Flag Button for Mastodon
- * @version 1.0
+ * @version 1.1
  * @description A small piece of code that changes the publish button to show pride in the LGBTQIAPN+ community
  * @author Dudu <vndmtrx@duck.com>, MagicLike <contact@magiclike.net> (https://magiclike.net)
  * @homepageURL https://github.com/vndmtrx/mastodon-pride-button
  * @license MIT
+ * adapted for Mastodon 4.3 by luka prince lucija <them@prin.lu> (https://prin.lu) @luka@sonomu.club
  **/
 
-/* .compose-form__publish-button-wrapper button,
-.ui__header__links .button { */
-.compose-form__publish-button-wrapper button.button.button--block {
+.compose-form__actions .compose-form__submit .button { 
   background-color: #0000;
   
   background-image: 
@@ -42,15 +41,11 @@
   transition: filter 100ms;
 }
 
-/* .compose-form__publish-button-wrapper button:hover,
-.ui__header__links .button:hover { */
-.compose-form__publish-button-wrapper button.button.button--block:hover {
+.compose-form__actions .compose-form__submit .button:hover {
   filter: brightness(1.1);
 }
 
-/* .compose-form__publish-button-wrapper button:disabled,
-.ui__header__links .button:disabled { */
-.compose-form__publish-button-wrapper button.button.button--block:disabled {
+.compose-form__actions .compose-form__submit .button:disabled {
   filter: grayscale(0.9);
 }
 
