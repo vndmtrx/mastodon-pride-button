@@ -8,6 +8,7 @@
  * adapted for Mastodon 4.3 by luka prince lucija <them@prin.lu> (https://prin.lu) @luka@sonomu.club
  **/
 
+.ui .ui__header .ui__header__links .button-secondary[href="/publish"],
 .compose-form__actions .compose-form__submit .button { 
   background-color: #0000;
   
@@ -41,10 +42,16 @@
   transition: filter 100ms;
 }
 
+.ui .ui__header .ui__header__links .button-secondary[href="/publish"] {
+  color:white;
+}
+
+.ui .ui__header .ui__header__links .button-secondary[href="/publish"]:hover,
 .compose-form__actions .compose-form__submit .button:hover {
   filter: brightness(1.1);
 }
 
+.ui .ui__header .ui__header__links .button-secondary[href="/publish"]:disabled,
 .compose-form__actions .compose-form__submit .button:disabled {
   filter: grayscale(0.9);
 }
